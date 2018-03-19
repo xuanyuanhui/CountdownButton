@@ -16,6 +16,7 @@
 		77D7AA30205F9EDB006F78C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D7AA2F205F9EDB006F78C3 /* main.m */; };
 		77D7AA3A205F9EDB006F78C3 /* CountdownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D7AA39205F9EDB006F78C3 /* CountdownButtonTests.m */; };
 		77D7AA45205F9EDB006F78C3 /* CountdownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D7AA44205F9EDB006F78C3 /* CountdownButtonUITests.m */; };
+		77D7AA54205F9EF3006F78C3 /* XSHCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D7AA53205F9EF3006F78C3 /* XSHCountdownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		77D7AA40205F9EDB006F78C3 /* CountdownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D7AA44205F9EDB006F78C3 /* CountdownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountdownButtonUITests.m; sourceTree = "<group>"; };
 		77D7AA46205F9EDB006F78C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D7AA52205F9EF2006F78C3 /* XSHCountdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSHCountdownButton.h; sourceTree = "<group>"; };
+		77D7AA53205F9EF3006F78C3 /* XSHCountdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSHCountdownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				77D7AA1E205F9EDB006F78C3 /* AppDelegate.m */,
 				77D7AA20205F9EDB006F78C3 /* ViewController.h */,
 				77D7AA21205F9EDB006F78C3 /* ViewController.m */,
+				77D7AA52205F9EF2006F78C3 /* XSHCountdownButton.h */,
+				77D7AA53205F9EF3006F78C3 /* XSHCountdownButton.m */,
 				77D7AA23205F9EDB006F78C3 /* Main.storyboard */,
 				77D7AA29205F9EDB006F78C3 /* Assets.xcassets */,
 				77D7AA2B205F9EDB006F78C3 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			files = (
 				77D7AA22205F9EDB006F78C3 /* ViewController.m in Sources */,
 				77D7AA28205F9EDB006F78C3 /* CountdownButton.xcdatamodeld in Sources */,
+				77D7AA54205F9EF3006F78C3 /* XSHCountdownButton.m in Sources */,
 				77D7AA30205F9EDB006F78C3 /* main.m in Sources */,
 				77D7AA1F205F9EDB006F78C3 /* AppDelegate.m in Sources */,
 			);
